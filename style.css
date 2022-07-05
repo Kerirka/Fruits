@@ -1,0 +1,54 @@
+.home {
+display: flex;
+flex-wrap: wrap;
+}
+.home__item {
+  width: 100px;
+  height: 100px;
+  background-color: #08ff6383;
+  margin: 0 20px 20px 0;
+  list-style: none;
+  text-align: center;
+  position: relative;
+}
+.home__item::first-letter {
+  text-transform: uppercase;
+}
+.home__item::before {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 50px;
+  bottom: 10px;
+  background-size: contain;
+}
+.home__item--lemon::before {
+  background-image: url(https://cdn-icons.flaticon.com/png/512/3137/premium/3137034.png?token=exp=1656754596~hmac=4d7c6554e72f41ff793a77770e4cfbff);
+}
+.home__item--banan::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/2909/2909761.png);
+}
+.home__item--orange::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/3076/3076153.png);
+}
+.home__item--grape::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/765/765634.png);
+}
+.home__item--pear::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/415/415716.png);
+}
+.home__item--dragon::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/2224/2224312.png);
+}
+.home__item--apple::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/135/135728.png);
+}
+.home__item--merry::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/135/135695.png);
+}
+.home__item--kivi::before {
+  background-image: url(https://cdn-icons.flaticon.com/png/512/1894/premium/1894279.png?token=exp=1656755013~hmac=f2b4db8275df4b44331b7648d5f9ab14);
+}
+.home__item--passion::before {
+  background-image: url(https://cdn-icons.flaticon.com/png/512/1791/premium/1791364.png?token=exp=1656755027~hmac=37c873c2eaa5bc158d6688ec56f22926);
+}
